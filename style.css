@@ -19,12 +19,12 @@ p {
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font: 1em sans-serif;
-    float: left;
+    float: none;
 }
 
 span {
     font-size: 60%;
-    text-decoration-color: lightslategrey;
+    text-decoration: gray;
 
 }
 
@@ -46,9 +46,9 @@ span {
    
 }
 .image img {
-    width: 50 px;
+    width: 50px;
     height: 50px;
-    align-content: center;
+    align-content: left;
 }
 .jenny {
     width: 50px;
