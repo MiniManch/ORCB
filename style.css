@@ -1,65 +1,68 @@
 body {
-    width: 700px;
+    width: 100%;
+    height:100%;
     margin: auto;
     padding: 10px;
-}
-
-
-.like img {
-    width: 15px;
-    height: 15px;
-    float: left;
-}
-
-
-
-p {
-    text-decoration: black;
-    text-align: inherit;
-    font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: 1em sans-serif;
-    float: none;
+}
+
+p{
+    margin-left:10%;
 }
 
 span {
     font-size: 60%;
-    text-decoration: gray;
+    color:grey;
+    font-weight:normal;
 
 }
 
-.eliot {
-    float: left;
-    width: 50px;
-    height: 40px;
-    margin: 20px 10px;
+a{
+    text-decoration:    none;
+}
 
+.like img {
+    width: 15px;
+    height: 15px;
+}
+
+.post-title {
+    text-decoration: black;
+    font-weight: bold;
+    margin-left:10%;
+    margin-bottom: 10px;
+}
+
+.like{
+    margin-left:10%;
+    margin-top:0px;
    
-
 }
 
-.helen {
-    width: 50px;
-    height: 40px;
-    margin: 20px 10px;
-    float: left;
-   
-}
-.image img {
-    width: 50px;
-    height: 50px;
-    align-content: left;
-}
-.jenny {
-    width: 50px;
-    height: 40px;
-    margin: 20px 10px;
-    float: left;
+#feed{
+    margin-left:25%;
+    width:60%;
+    height:60%;
 }
 
-.joe {
-    width: 50px;
-    height: 40px;
-    margin: 20px 10px;
+.icon {
+    width:60px;
+    height:50px;
     float: left;
+}
+.post {
+    width: 70%;
+    height: 25%;
+    float: left;
+    margin-bottom:2%;
+}
+.image{
+    margin-left: 10%;
+}
+.image img{
+    width: 20%;
+    height:30%;
+    min-height: 52px;
+    min-width: 72px;  
+    margin: 10px 5px; 
 }
